@@ -10,7 +10,8 @@
   As a learning exercise (you wouldn't do this normally), do all of the above in 1 line of code 
 */
 
-var startingValue = 5;
+
+
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
@@ -26,6 +27,10 @@ function multiply(a, b) {
 function format(num) {
   return "£" + num.toFixed(2);
 }
+var startingValue = 5;
+let result=multiply(startingValue,2);
+result = add(result,10)
+result = format(result)
 
 console.log("Expected result: 20.00");
 console.log("Actual result: " + result);
